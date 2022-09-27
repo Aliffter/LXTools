@@ -1,0 +1,6 @@
+framework module LXTools {
+  umbrella header "LXTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

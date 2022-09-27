@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LXTools (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LXTools (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LXTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LXTools: 451c2aa5fa452dec8e062eeb736f16cf7e7f2d75
+
+PODFILE CHECKSUM: b41d1b09c83c46f639fcd38bf26264c94e406a1a
+
+COCOAPODS: 1.11.3

@@ -38,8 +38,16 @@
 
 /* Begin PBXFileReference section */
 		271CC25BC493B339BDE0D634 /* Pods-LXTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXTools_Example.debug.xcconfig"; path = "Target Support Files/Pods-LXTools_Example/Pods-LXTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		301ADE1428E33DB7008521EA /* LXUILib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXUILib.m; sourceTree = "<group>"; };
+		301ADE1628E33DB7008521EA /* LXUILib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXUILib.h; sourceTree = "<group>"; };
+		301ADE1928E33DB7008521EA /* LXTools.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LXTools.xcassets; sourceTree = "<group>"; };
+		301ADE1B28E33DE5008521EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		301ADE1E28E33EA7008521EA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		301ADE1F28E33EA7008521EA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		301ADE2228E3420D008521EA /* Localisator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Localisator.m; sourceTree = "<group>"; };
+		301ADE2328E3420D008521EA /* Localisator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Localisator.h; sourceTree = "<group>"; };
 		4ACC86CF5F9F7B9290438364 /* Pods_LXTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5037D85148D8D41B18B84818 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5037D85148D8D41B18B84818 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5072CD086DC40E282AF8C55C /* Pods_LXTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LXTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,11 +68,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6784DFDFCE389EF44BD974AB /* LXTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LXTools.podspec; path = ../LXTools.podspec; sourceTree = "<group>"; };
+		6784DFDFCE389EF44BD974AB /* LXTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LXTools.podspec; path = ../LXTools.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7400E347A4CC701340B78470 /* Pods-LXTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXTools_Example.release.xcconfig"; path = "Target Support Files/Pods-LXTools_Example/Pods-LXTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		972287B039B05C9247977587 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		972287B039B05C9247977587 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9ABDC6449B0EDA1EA1334920 /* Pods-LXTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-LXTools_Tests/Pods-LXTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D705A20C127010975505F3D1 /* Pods-LXTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LXTools_Tests/Pods-LXTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +103,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		301ADE1228E33DB7008521EA /* LXTools */ = {
+			isa = PBXGroup;
+			children = (
+				301ADE1328E33DB7008521EA /* Classes */,
+				301ADE1728E33DB7008521EA /* Assets */,
+			);
+			name = LXTools;
+			path = ../../LXTools;
+			sourceTree = "<group>";
+		};
+		301ADE1328E33DB7008521EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				301ADE2328E3420D008521EA /* Localisator.h */,
+				301ADE2228E3420D008521EA /* Localisator.m */,
+				301ADE1428E33DB7008521EA /* LXUILib.m */,
+				301ADE1628E33DB7008521EA /* LXUILib.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		301ADE1728E33DB7008521EA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				301ADE1928E33DB7008521EA /* LXTools.xcassets */,
+				301ADE1C28E33DE5008521EA /* Localizable.strings */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +170,7 @@
 		6003F593195388D20070C39A /* Example for LXTools */ = {
 			isa = PBXGroup;
 			children = (
+				301ADE1228E33DB7008521EA /* LXTools */,
 				6003F59C195388D20070C39A /* LXAppDelegate.h */,
 				6003F59D195388D20070C39A /* LXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +232,6 @@
 				D705A20C127010975505F3D1 /* Pods-LXTools_Tests.debug.xcconfig */,
 				9ABDC6449B0EDA1EA1334920 /* Pods-LXTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,8 +297,10 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
@@ -408,6 +448,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		301ADE1C28E33DE5008521EA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301ADE1B28E33DE5008521EA /* en */,
+				301ADE1F28E33EA7008521EA /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,6 +477,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				71719F9E1E33DC2100824A3D /* Base */,
+				301ADE1E28E33EA7008521EA /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

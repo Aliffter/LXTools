@@ -7,8 +7,11 @@
 //
 
 #import "LXViewController.h"
-
+#import "LXUILib.h"
+#import "Localisator.h"
 @interface LXViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *titleLab;
+@property (weak, nonatomic) IBOutlet UIImageView *imageV;
 
 @end
 
@@ -17,13 +20,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.titleLab.text = NSLocalizedString(@"label",nil);
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [LXUILib test];
 }
 
 @end
